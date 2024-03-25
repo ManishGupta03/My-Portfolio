@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manish Gupta | Portfolio</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/p-1.jpeg" />
+    <!-- FontAwesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header section -->
+      <section id="header">
+        <div class="header-top">
+          <div class="logo">
+            <a href="#"><span>Manish</span>&nbsp;&nbsp;&nbsp;&nbsp;Gupta</a>
+          </div>
+          <div class="nav-menu">
+            <ul id="sidemenu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#service">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <!-- <li><a href="#testimonial">Testimonials</a></li> -->
+              <li><a href="#contact">Contact</a></li>
+              <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="bottom-left">
+            <h2 class="profession">Hello! My name is </h2>
+            <h1 class="name">Manish <span>Gupta</span></h1>
+            <section class="home" id="home">
+                <div class="max-width">
+                    <div class="home-content">
+                        <div class="text-3">And I'm a <span class="typing"></span></div>
+                    </div>
+                </div>
+            </section>
+            
+            <p class="short-desc">
+                I am a versatile Full Stack Web Developer, Electronics & Communication Engineer, Sofware Developer and dedicated Teacher. To utilize my skills and experience in software engineering to design, develop, and maintain high-quality software solutions
+                that meet the needs of clients and end-users while continuously improving my technical proficiency and contributing to the
+                growth of the company.
+            </p>
+            <a href="assets/Resume.pdf" target="_blank" class="btn-cv" download
+              >Download CV</a>
+          </div>
+          <div class="bottom-right">
+            <a href="https://github.com/ManishGupta03"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/manish_gupta03_08/
+            "><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/ManishGuptaa03"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/manish03/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+            "><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </section>
+      <!-- About section -->
+      <section id="about">
+        <div class="about-left">
+          <img src="assets/p-24.jpeg" alt="user-sideimg" />
+        </div>
+        <div class="about-right">
+          <div class="section-title">
+            <h2 class="sub-title">About Me</h2>
+            <h3 class="title">Full Stack Web Developer | Software Developer</h3>
+          </div>
+          <p class="desc">
+            I am a versatile Full Stack Developer proficient in front-end and back-end technologies, capable of building responsive web applications and APIs. As a Software Developer, I possess a strong grasp of programming languages and the software development lifecycle, delivering efficient solutions for diverse projects. Additionally Three Years full time teaching Experience.
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="openTab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="openTab('experience')">Experience</p>
+            <p class="tab-links" onclick="openTab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>
+                <span>Software Development</span><br /> Skilled software developer with expertise in multiple programming languages, software design, and full software development life cycle, adept at creating efficient and innovative solutions for diverse projects.
+              </li>
+              <li><span>Full Stack Web Development</span><br />Full stack developer proficient in front-end technologies (HTML, CSS, JavaScript, React JS), back-end frameworks (Java SpringBoot, Node.js, Express, firebase), and database management (SQL, NoSQL), with experience in building responsive web applications and RESTful APIs.</li>
+              <!-- <li><span>Cyber Security & Ethical Hacking</span><br />Cybersecurity expert and ethical hacker experienced in safeguarding systems, conducting penetration testing, and mitigating security vulnerabilities to ensure comprehensive digital protection. </li> -->
+              <li><span>Teaching</span><br />I excel in both mathematics and computer teaching, equipping students (x, XI, XII, UG) with a strong foundation in math while fostering digital literacy and problem-solving skills for the modern world.</li>
+              <!-- <li><span>Fitness Trainer & Dietician</span><br />I possess expertise as a Level 4 fitness trainer and certified dietitian, equipped to deliver comprehensive health and fitness solutions through personalized training programs and evidence-based nutritional guidance. </li> -->
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li>
+                <span>2022-Current</span><br />Project Engineer in DRDO .
+              </li>
+              <li>
+                <span>2019 - 2022</span><br />
+                Founder and Manager at Conceptual Learning Point.
+              </li>
+              <li>
+                <span>2021 - 2022</span><br />Mathematics Teacher for JEE | WBJEE .
+                
+              </li>
+              
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              
+              <li>
+                <span>2019-2021</span><br />Certified Full Stack Developer from Acciojob.
+              </li>
+              <li>
+                <span>2016-2019</span><br />B.Tech in Electronics & Communication from Maulana Abul kalam Azad University.
+              </li>
+              <li>
+                <span>2015-2016</span><br />Higher Secondary Education from Tantia High School .
+              </li>
+              <li>
+                <span>2013-2015</span><br />Secondary Education from Sarwodaya Vidyalaya.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Service section -->
+      <section id="service">
+        <div class="section-title">
+          <h2 class="sub-title">My Services</h2>
+          <h3 class="title">A brief of Offering Services</h3>
+        </div>
+        <div class="services">
+          <div>
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>Full Stack Web Development</h2>
+            <p>
+              I deliver full-stack web development services, creating dynamic, responsive, and feature-rich websites and applications that drive exceptional user experiences..
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-lock"></i>
+            <h2>Backend Develper</h2>
+            <p>
+              As a seasoned backend developer proficient in both Spring Boot and Node.js, I bring of hands-on experience in developing robust and scalable server-side solutions. My expertise lies in crafting efficient backend architectures, implementing RESTful APIs, and ensuring seamless data flow between the client and server.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-laptop"></i>
+            <h2>F- Developer</h2>
+            <p>
+              With a strong foundation in web technologies and a passion for creating impactful user interfaces, I thrive in translating design concepts into functional, responsive, and visually appealing web experiences. Whether it's building interactive components with JavaScript, styling layouts with CSS, or architecting complex applications with React
+            </p>
+          </div>
+          <div>
+            <i class="fa-brands fa-pix"></i>
+            <h2>Fine Arts</h2>
+            <p>
+              I am proud to have earned two diplomas in Fine Arts, which have equipped me with a strong foundation in artistic principles, techniques, and creative expression.I have honed my skills in various mediums, including drawing, painting, sculpture, and mixed media.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-computer"></i>
+            <h2>Computer | Programming Languages</h2>
+            <p>
+              I provide expert computer programming languages (such as C, Java, Python, DSA, etc) instruction, empowering students with the knowledge and skills to excel in coding across a wide range of languages and platforms.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-book"></i>
+            <h2>Mathematics</h2>
+            <p>
+              I offer competitive mathematics teaching (for X, XI, XII & UG), equipping students with advanced problem-solving skills and strategies to excel in mathematics competitions and beyond.
+            </p>
+          </div>
+          
+        </div>
+      </section>
+      <!-- Portfolio section -->
+      <section id="portfolio">
+        <div class="section-title">
+          <h2 class="sub-title">My Portfolio</h2>
+          <h3 class="title">Some Good Projects</h3>
+          <div class="project-list">
+            <div class="project">
+              <img src="assets/yt-1.png" alt="project1" />
+              <img src="assets/yt-2.png" alt="project1" />
+              <div class="layer">
+                <h3>YouTube Clone</h3>
+                <p>
+                  This is a simple YouTube clone project built using HTML, CSS, and JavaScript, with data fetched from the YouTube Data API.
+                </p>
+                <a href="https://manishgupta03.github.io/YouTube_Clone/"
+                  ><i class="fa fa-external-link" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project">
+              <img src="assets/p-243.png" alt="project1" />
+              <img src="assets/p-52.png" alt="project1" />
+              <div class="layer">
+                <h3>OTP Validation</h3>
+                <p>
+                  This project is a web application for validating email addresses and phone numbers using OTP (One-Time Password) verification. It consists of a Spring Boot backend for handling the business logic and API endpoints, and HTML, CSS, and JavaScript for the frontend interface.
+                </p>
+                <a href="https://manishgupta03.github.io/OTP-VALIDATION-GUI/"
+                  ><i class="fa fa-external-link" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project">
+              <img src="assets/td-1.png" alt="project2" />
+              <img src="assets/td-3.png" alt="project2" />
+              <div class="layer">
+                <h3>To-Do-Application</h3>
+                <p>
+                  This project is a simple Todo application built using Node.js, Express.js, EJS (Embedded JavaScript), and incorporating authentication sessions for user management.
+                </p>
+                <a href="https://manishgupta03.github.io/To-Do_Application/"
+                  ><i class="fa fa-external-link" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project">
+              <img src="assets/ca-1.png" alt="project3" />
+              <img src="assets/ca-5.png" alt="project3" />
+
+              <div class="layer">
+                <h3>Snappy-Chat-Application</h3>
+                <p>
+                  Snappy is chat application build with the power of MERN Stack. You can find the tutorial.This repository contains the code for a simple chat application built using Socket.IO library for real-time communication between clients and server.
+                </p>
+                <a href="https://manishgupta03.github.io/Chat-Application/"
+                  ><i class="fa fa-external-link" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project">
+                <img src="assets/project7.jpg" alt="project3" />
+                <div class="layer">
+                  <h3>Food Blog Website</h3>
+                  <p>
+                    Crafting a delectable food blog website to share culinary adventures, recipes, and gastronomic insights with fellow food enthusiasts.
+                  </p>
+                  <a href="https://manishgupta03.github.io/Food-Blogging-Application/"
+                    ><i class="fa fa-external-link" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="project">
+                <img src="assets/project5.jpg" alt="project3" />
+                <div class="layer">
+                  <h3>Landing Page Website</h3>
+                  <p>
+                    Building an attention-grabbing landing page to drive conversions, engage visitors, and communicate your key message effectively.
+                  </p>
+                  <a href="https://manishgupta03.github.io/BodyBuilding-Landing-Page/"
+                    ><i class="fa fa-external-link" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="project">
+                <img src="assets/project8.jpg" alt="project3" />
+                <div class="layer">
+                  <h3>Shobha Jewellery Website</h3>
+                  <p>
+                    Crafting an exquisite jewelry website to showcase stunning designs and provide a seamless shopping experience for discerning customers.
+                  </p>
+                  <a href="https://manishgupta03.github.io/Parvati-Jewellers-Portal/"
+                    ><i class="fa fa-external-link" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            <div class="project">
+                <img src="assets/project6.jpg" alt="project3" />
+                <div class="layer">
+                  <h3>Yoga Center Website</h3>
+                  <p>
+                    Fostering holistic well-being through an intuitive yoga center website that offers class schedules, instructional resources, and a serene virtual space for mindfulness.
+                  </p>
+                  <a href="https://manishgupta03.github.io/Yoga-Meditation-Portal/"
+                    ><i class="fa fa-external-link" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonial section
+      <section id="testimonial">
+        <div class="section-title">
+          <h2 class="sub-title">Testimonial</h2>
+          <h3 class="title">People What Are Saying</h3>
+          <div class="testimonial-list">
+            <div class="review">
+              <i class="fa-solid fa-quote-left"></i>
+              <p class="review-text">
+                Saurabh's ability to make complex math and computer science concepts understandable and engaging is commendable, but consider incorporating more hands-on practical applications to further enhance students' real-world problem-solving skills.
+              </p>
+              <div class="review-by">
+                <div class="img">
+                  <img
+                    src="assets/testimonials-img-1.jpg"
+                    alt="testimonials-img-1"
+                  />
+                </div>
+                <div class="info">
+                  <h3 class="name">Sneha Sahu</h3>
+                  <h5 class="resignation">Teacher</h5>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <i class="fa-solid fa-quote-left"></i>
+              <p class="review-text">
+                Saurabh's full stack web development skills are impressive, and I recommend staying updated with emerging technologies and design trends to maintain your competitive edge in the ever-evolving field.
+              </p>
+              <div class="review-by">
+                <div class="img">
+                  <img
+                    src="assets/testimonials-img-4.jpg"
+                    alt="testimonials-img-1"
+                  />
+                </div>
+                <div class="info">
+                  <h3 class="name">Manish Gupta</h3>
+                  <h5 class="resignation">Full Stack Developer</h5>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <i class="fa-solid fa-quote-left"></i>
+              <p class="review-text">
+                Saurabh's dedication to improving clients' health through personalized fitness and nutrition plans is evident, but consider enhancing communication and motivation skills to further empower individuals on their wellness journey.
+              </p>
+              <div class="review-by">
+                <div class="img">
+                  <img
+                    src="assets/testimonials-img-2.jpg"
+                    alt="testimonials-img-2"
+                  />
+                </div>
+                <div class="info">
+                  <h3 class="name">Rishu Mishra</h3>
+                  <h5 class="resignation">Airforce Commander</h5>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <i class="fa-solid fa-quote-left"></i>
+              <p class="review-text">
+               Manish's expertise in Fullstack Development is appreciatable, yet fostering an ongoing commitment to ethical and responsible hacking practices will continue to be of utmost importance in safeguarding digital systems and data.
+              </p>
+              <div class="review-by">
+                <div class="img">
+                  <img
+                    src="assets/testimonials-img-3.jpg"
+                    alt="testimonials-img-3"
+                  />
+                </div>
+                <div class="info">
+                  <h3 class="name">Avinash Prajapati</h3>
+                  <h5 class="resignation">Data Scientist</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- Contact section -->
+      <section id="contact">
+        <div class="section-title">
+          <h2 class="sub-title">Contact</h2>
+          <h3 class="title">Get in Touch</h3>
+        </div>
+        <div class="content">
+          <div class="contact-left">
+            <form action="">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit">
+                Send Message <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </form>
+          </div>
+          <div class="vl"></div>
+          <div class="contact-right">
+            <div class="col address">
+              <i class="fa-solid fa-location-dot"></i>
+              <div class="info">
+                <h2 class="title">Address</h2>
+                <p>18, Canal east road, Murari Pukur <br> Kolkata: 700067</p>
+              </div>
+            </div>
+            <div class="col phone">
+              <i class="fa-solid fa-phone"></i>
+              <div class="info">
+                <h2 class="title">Phone</h2>
+                <p>+91 7003841088</p>
+              </div>
+            </div>
+            <div class="col email">
+              <i class="fa-solid fa-envelope"></i>
+              <div class="info">
+                <h2 class="title">Email</h2>
+                <p>manishguptaand@gmail.com</p>
+              </div>
+            </div>
+            <div class="col website">
+              <i class="fa-solid fa-globe"></i>
+              <div class="info">
+                <h2 class="title">Website</h2>
+                <p>www.conceptualLearningPoint.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>
+            Copyright ©️ Manish Gupta | Made with
+            <i class="fa-solid fa-heart"></i> by
+            <a href="https://www.linkedin.com/in/saurabh-shyam-1900a9244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+            ">Manish Gupta</a>
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
