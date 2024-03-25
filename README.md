@@ -38,9 +38,10 @@ Welcome to my portfolio website! This repository contains the code for my person
 5. form submit to contact me if you have any doubt
 
 ## Outputs
-![pl-5](https://github.com/ManishGupta03/My-Portfolio/assets/117648576/cdcfa4a9-bcf1-4430-b21c-d692db5285d0)
-![pl-4](https://github.com/ManishGupta03/My-Portfolio/assets/117648576/b963fd1d-11e1-46ae-91cb-8e2afde9aff4)
-![pl-3](https://github.com/ManishGupta03/My-Portfolio/assets/117648576/2d844f3d-ca14-4199-bc07-ef7ad26e545c)
-![pl-2](https://github.com/ManishGupta03/My-Portfolio/assets/117648576/bfc5362e-be33-4a48-8d68-a195baa4c809)
 ![pl-1](https://github.com/ManishGupta03/My-Portfolio/assets/117648576/d73389f4-30e7-4674-9a55-db4907bd67b3)
+![pl-2](https://github.com/ManishGupta03/My-Portfolio/assets/117648576/bfc5362e-be33-4a48-8d68-a195baa4c809)
+![pl-3](https://github.com/ManishGupta03/My-Portfolio/assets/117648576/2d844f3d-ca14-4199-bc07-ef7ad26e545c)
+![pl-4](https://github.com/ManishGupta03/My-Portfolio/assets/117648576/b963fd1d-11e1-46ae-91cb-8e2afde9aff4)
+![pl-5](https://github.com/ManishGupta03/My-Portfolio/assets/117648576/cdcfa4a9-bcf1-4430-b21c-d692db5285d0)
+
 
